@@ -114,7 +114,6 @@ class Pdp extends React.Component {
   
   updateCart(attributes, details){
     let attribute = [{...this.state.attributes}];
-    console.log(attribute);
     let sum = 0;
     if( attribute[0].size !== ""){
       sum = sum + 1
@@ -149,7 +148,6 @@ class Pdp extends React.Component {
   }
 
   render(){
-    console.log(this.state.attributes)
     if(this.props.details.id)
     return(
       <div>

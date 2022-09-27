@@ -153,7 +153,6 @@ class Cart extends React.Component {
                       onClick={() => this.props.reduce(index)}>-</button>
             </div>
               <div className="cart--image">
-                {console.log(this.props.imageIndex[index])}
                 <img  className="cart--img"
                       src={detail.gallery[this.props.imageIndex[index]]}
                       alt={'product'}>

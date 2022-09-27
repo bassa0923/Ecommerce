@@ -140,7 +140,6 @@ showColor(type, displayValue, name){
   }
 
   render() {
-    console.log(this.state.attributes)
       if(this.props.categoryAll.name === this.props.value) {
     return(
     <div>
